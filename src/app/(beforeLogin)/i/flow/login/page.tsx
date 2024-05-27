@@ -1,5 +1,7 @@
-const Page = () => {
-  return <main>로그인 모달</main>;
+import LoginModal from "@/app/(beforeLogin)/_component/LoginModal";
+
+const page = () => {
+  return <LoginModal />;
 };
 
-export default Page;
+export default page;
