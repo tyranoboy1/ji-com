@@ -1,5 +1,11 @@
-const Profile = () => {
-  return <main>프로필</main>;
+import Home from "@/app/(afterLogin)/home/page";
+
+const Page = () => {
+  return (
+    <main>
+      <Home />
+    </main>
+  );
 };
 
-export default Profile;
+export default Page;

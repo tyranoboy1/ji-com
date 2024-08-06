@@ -1,4 +1,11 @@
-const Home = () => {
-  return <main>홈페이지</main>;
+import Tab from "./_component/Tab";
+import style from "./home.module.css";
+
+const Page = () => {
+  return (
+    <main className={style.main}>
+      <Tab />
+    </main>
+  );
 };
-export default Home;
+export default Page;
