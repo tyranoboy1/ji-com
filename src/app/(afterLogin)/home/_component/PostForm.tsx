@@ -3,7 +3,7 @@
 import { ChangeEventHandler, FormEventHandler, useRef, useState } from "react";
 import style from "./postForm.module.css";
 
-export default function PostForm() {
+const PostForm = () => {
   const imageRef = useRef<HTMLInputElement>(null);
   const [content, setContent] = useState("");
   const me = {
@@ -66,4 +66,6 @@ export default function PostForm() {
       </div>
     </form>
   );
-}
+};
+
+export default PostForm;
